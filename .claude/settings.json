@@ -1,0 +1,24 @@
+{
+  "env": {
+    "NODE_USE_ENV_PROXY": "1",
+    "DISABLE_TELEMETRY": "1",
+    "DO_NOT_TRACK": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npx skills find *)",
+      "Bash(npx skills list *)",
+      "Bash(npx skills list)",
+      "Bash(npx skills add *)",
+      "Bash(npx skills check *)",
+      "Bash(npx skills check)",
+      "Bash(npx skills update *)",
+      "Bash(npx skills update)",
+      "Bash(npx -y skills find *)",
+      "Bash(npx -y skills list *)",
+      "Bash(npx -y skills add *)",
+      "Bash(npx -y skills check *)",
+      "Bash(npx -y skills update *)"
+    ]
+  }
+}
